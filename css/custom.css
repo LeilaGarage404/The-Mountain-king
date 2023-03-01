@@ -1,0 +1,121 @@
+#home {
+    background-image: url(/images/bg_header.jpg);
+    height: 1400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: padding-box;
+    text-align: center;
+
+}
+
+#about {
+    background-image: url(/images/bg_nuage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marg {
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.blocBleu {
+    height: 700px;
+    background: rgba(0, 174, 255, 0.5);
+    color: white;
+}
+
+.ligula {
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.tiBlock {
+    border: 1px solid white;
+    margin-top: 8%;
+    height: 200px;
+}
+
+.tiBlockT {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+.tiBlockC {
+    font-size: 40px;
+    text-align: center;
+}
+
+#history {
+    background-image: url(/images/bg_appareil_photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 14px;
+
+
+}
+
+
+
+.fond-bleu {
+    height: 700px;
+    background: rgba(0, 174, 255, 0.5);
+    color: white;
+}
+
+#contact {
+    background: linear-gradient(rgba(33, 37, 43, 0.6),
+            rgba(33, 37, 43, 0.6)),
+        url(/images/bg_newsletter.jpg);
+
+}
+
+#contact .social {
+    padding-top: 50px;
+}
+
+#footer {
+    background-color: rgb(57, 78, 90);
+    padding-top: 2em;
+    padding-bottom: 1.2em;
+}
+
+#footer .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+}
+
+#photos {
+    background-color: #dddddd;
+}
+
+@media screen and (max-width: 640px) {
+    .bloc {
+        display: block;
+        clear: both;
+    }
+
+
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+    .bloc {
+        display: block;
+        clear: both;
+    }
+
+    * {
+        margin: 0 auto;
+    }
+
+    .contact-box {
+        display: flex;
+        justify-content: center;
+    }
+}
